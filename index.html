@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+    <script type="text/javascript" src="the_things.js"></script>
+    <title>A thing, a thing, a lovely little thing</title>
+  </head>
+  <body>
+  <h1>Here's some things</h1>
+
+  <label>
+    Add thing
+    <input id="thing" type="text" />
+    <input type="button" onclick="addThing()" value="add" />
+  </label>
+
+  <p>The things:</p>
+  <ul id="thingList"></ul>
+  </body>
+</html>
